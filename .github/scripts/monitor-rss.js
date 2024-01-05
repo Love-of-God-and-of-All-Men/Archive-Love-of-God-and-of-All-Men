@@ -2,7 +2,7 @@ const admin = require('firebase-admin');
 const Parser = require('rss-parser');
 
 // Initialize Firebase
-const serviceAccount = require('path/to/serviceAccountKey.json');
+const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
 });
