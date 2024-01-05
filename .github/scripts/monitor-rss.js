@@ -10,6 +10,7 @@ admin.initializeApp({
   credential: admin.credential.cert(firebaseConfig),
 });
 
+
 const db = admin.firestore();
 const messaging = admin.messaging();
 
