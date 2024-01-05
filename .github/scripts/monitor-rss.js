@@ -1,6 +1,7 @@
 const admin = require('firebase-admin');
 const Parser = require('rss-parser');
 
+
 console.log('FIREBASE_CREDENTIALS:', process.env.FIREBASE_CREDENTIALS);
 // Initialize Firebase
 const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
