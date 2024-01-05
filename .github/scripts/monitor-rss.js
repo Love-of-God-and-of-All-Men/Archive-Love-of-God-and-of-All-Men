@@ -3,6 +3,7 @@ const Parser = require('rss-parser');
 
 // Parse the Firebase configuration string from the GitHub secret
 const firebaseConfigString = process.env.FIREBASE_CREDENTIALS;
+console.log('firebaseConfigString:', firebaseConfigString);
 const firebaseConfig = JSON.parse(`{${firebaseConfigString}}`);
 
 // Initialize Firebase
