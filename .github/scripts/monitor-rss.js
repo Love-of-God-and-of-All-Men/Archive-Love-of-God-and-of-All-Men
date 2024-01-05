@@ -10,7 +10,6 @@ admin.initializeApp({
   credential: admin.credential.cert(firebaseConfig),
 });
 
-
 const db = admin.firestore();
 const messaging = admin.messaging();
 
@@ -33,11 +32,11 @@ async function checkForNewItems() {
 
     // Send a notification
     const message = {
-      notification: {
-        title: 'New RSS Feed Item',
-        body: `Check out the latest content: ${feed.items[0].title}`,
-      },
-      // Add other options like `token`, `topic`, `condition` based on your needs
+        topic: 'YOUR_TOPIC',
+        notification: {
+            title: 'New RSS Feed Item',
+            body: `Check out the latest content: ${feed.items[0].title}`,
+        },
     };
 
     // Send the notification
