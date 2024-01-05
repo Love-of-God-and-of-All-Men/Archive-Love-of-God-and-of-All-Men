@@ -1,6 +1,7 @@
 const admin = require('firebase-admin');
 const Parser = require('rss-parser');
 
+console.log('FIREBASE_CREDENTIALS:', process.env.FIREBASE_CREDENTIALS);
 // Initialize Firebase
 const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
 admin.initializeApp({
@@ -12,10 +13,6 @@ const messaging = admin.messaging();
 
 // Replace this with your RSS feed URL
 const rssFeedUrl = 'https://love-of-god-and-of-all-men.github.io/feed.xml';
-
-console.log('FIREBASE_CREDENTIALS:', process.env.FIREBASE_CREDENTIALS);
-const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
-
 
 // Function to check for new items in the RSS feed
 async function checkForNewItems() {
