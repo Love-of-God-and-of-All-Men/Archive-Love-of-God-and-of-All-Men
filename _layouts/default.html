@@ -8,31 +8,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="manifest" href="/manifest.json" />
 
-   <!-- Add this to the head of your HTML file -->
-   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"></script>
-
-   <script>
-      var firebaseConfig = process.env.FIREBASE_CONFIG;
-
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-
-      const messaging = firebase.messaging();
-   </script>
-
-   <script>
-      messaging.requestPermission().then(() => {
-         console.log('Notification permission granted.');
-         return messaging.getToken();
-      }).then((token) => {
-         console.log('FCM Token:', token);
-         // Send this token to your server to identify the user
-      }).catch((err) => {
-         console.log('Unable to get permission or token:', err);
-      });
-   </script>
-
    {% if page.is_post %}
    <meta name="description" content="{{ page.subtitle }}">
    <meta property="og:description" content="{{ page.subtitle }}" />
