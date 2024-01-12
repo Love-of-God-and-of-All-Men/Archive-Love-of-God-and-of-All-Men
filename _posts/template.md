@@ -1,6 +1,7 @@
 ---
 sitemap:
   exclude: 'yes'
+title: Title of post
 subtitle: subtitle/tagline of post
 tags: [one tag, another, thistagdoesntneedspaces, but tags can have spaces, they are comma separated]
 image: title-of-the-post-file (image must be stored in /assets/images/headers/ and have a .webp file extension)
