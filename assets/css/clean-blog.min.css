@@ -10,9 +10,9 @@
   /* Primary for main text and links to articles */
   --primary-text-color: black;
   /* Secondary for minor items like the scrollbar and menu links on hover */
-  --secondary: #a80000;
+  --secondary: green;
   /* Tertiary for things generally not seen like tap and button hover */
-  --tertiary: red;
+  --tertiary: blue;
   /* the color for background elements and button hover text; tip and scrollbar backgrounds as well as white page background remain untouched */
   --element-background-color: white;
 }
