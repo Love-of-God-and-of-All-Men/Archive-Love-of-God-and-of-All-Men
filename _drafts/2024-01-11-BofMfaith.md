@@ -1,5 +1,5 @@
 ---
-title: Faith
+title: 1 Nephi 1-5
 subtitle: Scripture study and lessons learned
 tags: Book of Mormon
 image: #
