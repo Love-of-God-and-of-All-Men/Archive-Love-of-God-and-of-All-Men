@@ -8,7 +8,7 @@ contributor_link: #
 contributor_site: #
 contributor_site_link_to_image: #
 date: 2024-01-14 23:27
-updated: 2024-01-15 01:02
+updated: 2024-01-15 12:16
 ---
 
 ## What I've learned this month:
@@ -20,3 +20,5 @@ Part of faith is looking for things you are thankful for even in the midst of di
 
 ### Promised Blessings
 Blessings are conditional on keeping God's commandments, but when kept blessings always come. ([1 Nephi 2:20](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng&id=p20#p20){:target="_blank"})
+
+When you make a promise with the Lord, you have no need to fear. (See [1 Nephi 4:37](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/4?lang=eng&id=p37#p37){:target="_blank"}) You can trust in His promises. ([1 Nephi 5:5](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/5?lang=eng&id=p5#p5){:target="_blank"})
