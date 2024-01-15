@@ -1,7 +1,7 @@
 ---
 title: Faith and Promised Blessings
 subtitle: Scripture study and lessons learned
-tags: Book of Mormon
+tags: BookofMormon
 image: #
 image_contributor: #
 contributor_link: #
