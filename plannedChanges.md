@@ -1,0 +1,5 @@
+- [ ] Redo the wallpaper page to be the page for all of the scripture study insight posts
+    - [ ] pseudo code: loop through the top 5 posts with the cfm tag showing the most recent.
+- [ ] add an archive page for the insight posts specifically filtered by date
+- [ ] remove cfm posts from the home page ex. unless post tag is cfm, filter through as it has been (top 5 posts)
+- [ ] remove the posts from search? Why or why not? If so, exclude them from the sitemap and tell robots not to index them.
