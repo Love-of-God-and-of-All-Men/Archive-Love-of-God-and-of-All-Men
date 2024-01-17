@@ -1,9 +1,14 @@
 ---
 layout: default
 title: Study Insights
-subtitle: test
 ---
 
+<h2>{{ page.title }}</h2>
+
+<p>This page contains scripture study insights from me and others intended to be a supplement to your own scripture
+    study.
+</p>
+<hr>
 <!-- Prints the first 5 posts tagged 'cfm' regardless of what other posts may be in the top 5 -->
 {% assign count = 0 %}
 {% for post in site.posts %}
