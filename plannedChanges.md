@@ -2,7 +2,7 @@
     - [x] pseudo code: loop through the top 5 posts with the cfm tag showing the most recent.
     - [x] rename the wallpaper file
     - [x] change site navigation to show the insights link instead of wallpaper
-- [ ] add an archive page for the insight posts specifically filtered by date
+- [x] add an archive page for the insight posts specifically filtered by date
 - [ ] remove the posts from search? Why or why not?
     - [ ] If so, programatically exclude them from the sitemap
     - [ ] tell robots not to index them.
