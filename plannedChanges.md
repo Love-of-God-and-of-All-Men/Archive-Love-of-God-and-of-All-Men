@@ -4,4 +4,7 @@
     - [ ] change site navigation to show the insights link instead of wallpaper
 - [ ] add an archive page for the insight posts specifically filtered by date
 - [ ] remove cfm posts from the home page ex. unless post tag is cfm, filter through as it has been (top 5 posts)
-- [ ] remove the posts from search? Why or why not? If so, programatically exclude them from the sitemap and tell robots not to index them.
+- [ ] remove the posts from search? Why or why not?
+    - [ ] If so, programatically exclude them from the sitemap
+    - [ ] tell robots not to index them.
+    - [ ] remove them from the feed?
