@@ -1,12 +1,7 @@
 ---
 title: Faith and Promised Blessings
 subtitle: Scripture study and lessons learned (January 8-14)
-tags: BookofMormon
-image: #
-image_contributor: #
-contributor_link: #
-contributor_site: #
-contributor_site_link_to_image: #
+tags: [BookofMormon, cfm]
 date: 2024-01-14 23:27
 updated: 2024-01-15 12:16
 ---
