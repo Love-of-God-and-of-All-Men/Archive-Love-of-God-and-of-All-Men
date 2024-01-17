@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Wallpapers
-  link: /wallpapers.html
+- name: Study Insights
+  link: /insights.html
 - name: Archive
   link: /archive.html
 - name: Contributors

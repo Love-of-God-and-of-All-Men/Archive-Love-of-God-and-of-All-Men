@@ -1,0 +1,16 @@
+---
+layout: default
+title: Study Insights
+---
+
+<!-- Prints the first 5 posts tagged 'cfm' regardless of what other posts may be in the top 5 -->
+{% assign count = 0 %}
+{% for post in site.posts %}
+{% if post.tags contains 'cfm' %}
+{% include post-display.html %}
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% if count >= 5 %}
+{% break %}
+{% endif %}
+{% endfor %}
