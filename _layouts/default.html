@@ -3,22 +3,10 @@
 <html lang="en">
 
 <head>
-   <!-- <meta charset="utf-8">
+   <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="manifest" href="/manifest.json" />
-
-   {% if page.is_post %}
-   <meta name="description" content="{{ page.subtitle }}">
-   <meta property="og:description" content="{{ page.subtitle }}" />
-   <meta property="og:image"
-      content="https://love-of-god-and-of-all-men.github.io/assets/images/headers/{{ page.image }}.webp" />
-   <meta name="author" content="{{ page.author }}">
-   {% else %}
-   <meta name="description" content="Doing my best to spread God's love to everyone">
-   <meta property="og:description" content="Doing my best to spread God's love to everyone" />
-   <meta property="og:image" content="https://love-of-god-and-of-all-men.github.io/header-image.webp" />
-   {% endif %}
 
    {% if page.url == "/" %}
    <meta name="google-site-verification" content="hlYP3FRvFCuR1tXGgIjeIddGUvDxcrxAUM87lp19mrI" />
@@ -30,8 +18,6 @@
    {% endif %}
    <meta name="theme-color" content="#FFFFFF">
    <link rel="icon" href="/favicon-512x512.png" />
-   <meta property="og:url" content="https://love-of-god-and-of-all-men.github.io{{ page.url }}" />
-   <meta property="og:title" content="{{ page.title }}" />
    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
    <script>
@@ -39,8 +25,6 @@
          navigator.serviceWorker.register('sw.js');
       }
    </script>
-
-   <title>{{ page.title }}</title> -->
 
    {% include bootstrap.html %}
    <link href="/assets/css/clean-blog.min.css" rel="stylesheet">
