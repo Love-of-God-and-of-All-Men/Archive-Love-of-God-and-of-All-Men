@@ -11,7 +11,9 @@ title: Archive by Date
 {% assign sorted_group_names = group_names | split: "," | sort | reverse %}
 {% for name in sorted_group_names %}
 {% assign group = grouped_posts | where: "name", name | first %}
-<h2 id="{{ group.name }}">{{ group.name }}</h2>
+<button class="accordion btn btn-secondary">{{ group.name }}</button>
+<div class="panel">
+  <h2 id="{{ group.name }}">{{ group.name }}</h2>
 {% if group.items.size > 5 %}
 {% assign grouped_posts_by_month = group.items | group_by_exp: "post", "post.date | date: '%B'" %}
 {% for month in grouped_posts_by_month %}
@@ -29,6 +31,7 @@ title: Archive by Date
     {% endfor %}
 </ul>
 {% endif %}
+</div>
 {% endfor %}
 
 <!-- may be implemented later when a system is figured out to simplify this process with variables or whatever is needed -->
