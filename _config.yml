@@ -1,0 +1,30 @@
+title: Sharing His Love
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post" # This ensures that you don't have to put this in the frontmatter of every single post.
+      is_post: true # automatically set is_post=true for all posts (used to determine in which header to show at the top of each page)
+      image: default
+      author: "Riley" # At the moment, I am the only author. If there are other authors, I should be able to override this in an individual post's frontmatter.
+      contributor_site: Unsplash # default because this is the site I use the most for header images
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Other variables
+# Tags (This tells Jekyll to generate a new directory called tag and place tag pages in that directory.)
+# tag_page_dir: tag
+timezone: America/Denver
