@@ -30,9 +30,3 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 };
-
-// Add these lines of code to open the top panel by default
-var firstAcc = document.querySelector(".accordion"); // Select the first accordion element
-firstAcc.classList.add("active"); // Add the active class to it
-var firstPanel = firstAcc.nextElementSibling; // Select the first panel element
-firstPanel.style.display = "block"; // Set its display to block
