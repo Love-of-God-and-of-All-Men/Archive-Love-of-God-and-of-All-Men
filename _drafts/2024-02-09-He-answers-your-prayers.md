@@ -1,6 +1,6 @@
 ---
-title: The No Complaint Challenge
-subtitle: My brief thougts on going a day without complaining
+title: He Answers Your Prayers
+## subtitle: 
 image: no-complaint-challenge
 image_contributor: The Church of Jesus Christ of Latter-day Saints
 contributor_link: https://www.churchofjesuschrist.org/youth/activities/new/goal/pray-with-real-intent?lang=eng
