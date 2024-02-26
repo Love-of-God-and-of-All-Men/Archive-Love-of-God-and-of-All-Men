@@ -1,11 +1,11 @@
 ---
 title: He Answers Your Prayers
 ## subtitle: 
-image: no-complaint-challenge
-image_contributor: The Church of Jesus Christ of Latter-day Saints
-contributor_link: https://www.churchofjesuschrist.org/youth/activities/new/goal/pray-with-real-intent?lang=eng
-contributor_site: ChurchOfJesusChrist.org
-contributor_site_link_to_image: https://ChurchOfJesusChrist.org
+image: #
+image_contributor: #
+contributor_link: #
+contributor_site: #
+contributor_site_link_to_image: #
 date: 2024-02-18 13:15
 ---
 
