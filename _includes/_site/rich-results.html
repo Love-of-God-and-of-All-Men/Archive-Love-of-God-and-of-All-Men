@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}"
+      },
+      "headline": "{{ page.title }}",
+      "description": "{{ page.subtitle }}",
+      "image": "https://love-of-god-and-of-all-men.github.io/assets/images/headers/{{ page.image }}.webp",  
+      "author": {
+        "@type": "Person",
+        {% assign author = site.authors | where: 'short_name', page.author | first %}"name": "{{ author.name }}"
+      },  
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sharing His Love",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://love-of-god-and-of-all-men.github.io/favicon-512x512.png"
+        }
+      },
+      "datePublished": "{{ page.date | date: "%F %T %z" }}" {% if page.updated %},
+      "dateModified": "{{ page.updated | date: "%F %T %z" }}"
+      {% endif %}
+    }
+    </script>
