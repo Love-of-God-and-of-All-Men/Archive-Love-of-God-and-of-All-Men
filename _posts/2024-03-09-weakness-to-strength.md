@@ -2,11 +2,11 @@
 title: Weakness to Strength
 # subtitle: subtitle/tagline of post
 author: Hugo
-# image: title-of-the-post-file # (image must be stored in /assets/images/headers/ and have a .webp file extension)
-# image_contributor: Name of photographer or painter, etc.
-# contributor_link: link to their page
-# contributor_site: name of site
-# contributor_site_link_to_image: link to their image
+image: weakness-to-strength
+image_contributor: Adam Howling (New Era Magazine)
+contributor_link: https://www.churchofjesuschrist.org/study/magazines/for-the-strength-of-youth/new-era-19712020?lang=eng
+contributor_site: ChurchOfJesusChrist.org
+contributor_site_link_to_image: https://www.churchofjesuschrist.org/study/new-era/2016/12/strength-to-choose-a-mission?lang=eng
 date: 2024-03-09 23:23 # date and time posted
 ---
 
