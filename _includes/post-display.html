@@ -2,8 +2,11 @@
     <a href="{{ post.url }}">
         {% if post.tags contains 'BookofMormon' %}
         <img src="/assets/images/headers/open-scriptures.webp" class="post-preview-image" width="300px" height="200px">
-        {% else %}
+        <!-- If a post doesn't contain the Book of Mormon tag, but has an image, display that image. -->
+        {% elsif post.image %}
         <img src="/assets/images/headers/{{ post.image }}.webp" class="post-preview-image" width="300px" height="200px">
+        <!-- If a post has neither the Book of Mormon tag nor a post image, don't display any image. -->
+        {% else %}
         {% endif %}
         <h2 class="post-title">
             {{ post.title }}
